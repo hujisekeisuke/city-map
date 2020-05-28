@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resources :spots
-  root 'spots#index'
+  get 'tops', to:'tops#index'
 end
+ 
